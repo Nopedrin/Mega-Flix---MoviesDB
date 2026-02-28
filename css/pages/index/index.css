@@ -1,0 +1,4 @@
+@import url(../../global/global.css);
+@import url(./partials/filmesGrid.css);
+@import url(./partials/card.css);
+@import url(./partials/transition.css);

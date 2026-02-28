@@ -1,0 +1,9 @@
+body {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    background: var(--cinza-claro);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+

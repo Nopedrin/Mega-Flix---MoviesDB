@@ -1,0 +1,79 @@
+.header{
+    background: var(--cinza-escuro);
+    border-bottom: 2px solid var(--destaque);
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header-conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0.4rem;
+}
+.logoMenu{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 1rem;
+}
+.logo{
+    width: 70px;
+    border-radius: 50%;
+}
+.logo span{
+    color: var(--vermelho);
+}
+.menu{
+    display: flex;
+    gap: 1.5rem;
+}
+.menu a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.menu a:hover {
+    color: var(--destaque);
+}
+.pesquisa-section {
+    margin: 0px;
+}
+.pesquisa-conteudo {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.pesquisa-conteudo input {
+    width: 99%;
+    padding: 0.7rem;
+    border-radius: 20px;
+    outline: none;
+    font-size: 1rem;
+
+}
+.pesquisa-button img {
+    width: 18px;
+    height: 18px;
+}
+.pesquisa-button {
+    background-color: var(--destaque);
+    border: none;
+    padding: 1rem;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.pesquisa-button:hover {
+    transform: scale(1.2);
+}

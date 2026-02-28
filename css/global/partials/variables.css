@@ -1,0 +1,13 @@
+:root {
+    --cinza-escuro: #1f252f;
+    --cinza-claro: #322c3f;
+    --destaque: #57449a;
+    --branco: #fff;
+}
+
+body.tema-claro {
+    --cinza-escuro: #5f0085;
+    --cinza-claro: #f3daff;
+    --destaque: #ff004c;
+    --branco: #000000;
+}

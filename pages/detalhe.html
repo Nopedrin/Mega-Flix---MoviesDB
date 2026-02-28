@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="../assents/icones/megaflix-logo.jpg">
+    <link rel="stylesheet" href="../css/pages/detalhe/detalhe.css">
+    <script src="../js/detalhe.js" defer></script>
+    <script src="../js/global.js" defer></script>
+</head>
+
+<body>
+    <div class="loader" id="loader">
+        <div class="spinner"></div>
+        <p>Carregando...</p>
+    </div>
+    <header class="header">
+        <div class="container header-conteudo">
+            <div class="logoMenu">
+                <a href="../index.html"><img src="../assents/icones/megaflix-logo.jpg" alt="Logo" class="logo" /></a>
+                <nav class="menu">
+                    <button id="botaoTema">Tema</button>
+                    <a href="#" id="inicio">Inicio</a>
+                    <a href="#" id="filmes">Filmes</a>
+                    <a href="#" id="series">Séries</a>
+                </nav>
+            </div>
+            <section class="pesquisa-section">
+                <div class="container pesquisa-conteudo">
+                    <input type="text" placeholder="Pesquisar por filme" id="campoPesquisa" />
+                    <a href="../index.html"><button class="pesquisa-button" id="botaoPesquisa">
+                            <img src="../assents\icones\lupa.png" alt="Pesquisar" />
+                        </button></a>
+                </div>
+            </section>
+        </div>
+    </header>
+    <main>
+        <div class="detalhesContainer" id="detalhesContainer"></div>
+    </main>
+    <footer class="footer">
+        <p><strong>Desenvolvido por Predo</strong></p>
+    </footer>
+</body>
+
+</html>
